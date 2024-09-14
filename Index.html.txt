@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chloe's Personal Website - A Nature Enthusiast's Journey">
+    <title>Chloe - Nature Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Chloe's Journey into Nature</h1>
+            <p class="subtitle">Nature Enthusiast, Explorer, and Advocate for Sustainable Living</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#gallery">Nature Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello, I'm Chloe! I'm 24 years old and passionate about exploring nature and advocating for a more sustainable way of living. From hiking in the mountains to camping under the stars, I believe that nature has the power to rejuvenate and inspire. Through my blog and photos, I hope to share my love for the outdoors and encourage others to explore and protect our environment.</p>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Nature Gallery</h2>
+        <div class="gallery">
+            <img src="nature1.jpg" alt="Forest Path">
+            <img src="nature2.jpg" alt="Mountain Range">
+            <img src="nature3.jpg" alt="Sunset by the River">
+            <img src="nature4.jpg" alt="Wildflowers in the Field">
+        </div>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Hiking in the Rocky Mountains</h3>
+            <p>My recent adventure in the Rocky Mountains was a life-changing experience! I spent days trekking through rugged terrain, watching the sun rise over snow-capped peaks. There is something truly magical about being surrounded by untouched wilderness...</p>
+            <button id="read-more">Read More</button>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chloe's Nature Adventures | Designed by Chloe</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

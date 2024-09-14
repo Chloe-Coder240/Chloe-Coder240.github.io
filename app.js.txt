@@ -1,0 +1,7 @@
+// Event listener for the 'Read More' button
+document.getElementById('read-more').addEventListener('click', function() {
+    alert('Stay tuned for more updates on this adventure!');
+});
+
+// You can add more JavaScript functionalities here as needed,
+// such as form validation, animations, or other interactive features.
